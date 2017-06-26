@@ -1,6 +1,0 @@
-1.客户端发出一个http请求，web容器对这个http请求进行解析，如果和dispatcherservlet请求映射路径向匹配的话，web把请求交给dispatcherservlet
-2.dispatcherservlet委托处理器处理请求，处理器对数据处理完成以后返回一个modelandview对象给dispatcherservlet
-
-3.处理器返回的modelandview是逻辑视图，不是真正的视图，disptcherservlet通过viewresovler将逻辑视图转化位真正的视图，、
-
-4.dispathcherservlet通过model对modelandview对象中的参数进行解析并最终生成完整的视图返回客户端
