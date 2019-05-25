@@ -25,7 +25,7 @@ public class Test {
 //		for(String str: list){
 //			System.out.println(str);
 //		}
-		
+		//编码
 		Set<String> set = new TreeSet<String>();
 		set.add("w");
 		set.add("ff");
