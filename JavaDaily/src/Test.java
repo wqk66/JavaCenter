@@ -9,32 +9,10 @@ import java.util.TreeSet;
 public class Test {
 
 	public static void main(String[] args) {
-//		Map<Integer, String> map = new  HashMap<Integer, String>();
-//		map.put(1, "tt");
-//		map.put(5, "ee");
-//		map.put(3, "ff");
-//		map.put(2, "aa");
-//		
-//		for(Entry<Integer, String> entry : map.entrySet()){
-//			System.out.println(entry.getKey()+"---"+entry.getValue());
-//		}
-//		ArrayList<String> list= new ArrayList<String>();
-//		list.add("cc");
-//		list.add("dd");
-//		list.add("aa");
-//		for(String str: list){
-//			System.out.println(str);
-//		}
-		//编码
-		Set<String> set = new TreeSet<String>();
-		set.add("w");
-		set.add("ff");
-		set.add("dd");
-		set.add("aa");
-		set.add("ss");
-		set.add("bb");
-		for(String str : set){
-			System.out.println(str);
+		String str = "#1	安徽.来安光伏发电P	1	0.000";
+		String[] strs = str.split("	");
+		for (String str1 : strs) {
+			System.out.println(str1);
 		}
 	}
 }
